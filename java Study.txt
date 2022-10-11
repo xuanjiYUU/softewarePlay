@@ -1,0 +1,18 @@
+java基础阶段:基本程序结构，类与对象，接口，泛型，反射，集合，异常与调试， Java 网络编程（可以学netty框架）， Java I/O和多线程
+必看书：Java核心技术卷1 其中GUI章可以跳
+
+数据库部分：CRUD命令，JDBC API，数据库池连接，Java实体与数据库的关系（存储，转换，接受）
+推荐书籍：MySQL必知必会
+
+学完以上两个阶段就可以开始写一个小小的管理系统，不需要前端的那种
+
+java web阶段：在这个阶段有时间可以稍微学习一下（就是知道是个什么东西就行）html+css+js+jquery,
+稍微了解一下JSP（没有人会用这个的！）
+Tomcat(简单理解)
+XML/注解(简单理解)
+Servlet(重点学习)
+HTTP协议(重点学习)
+Filter过滤器(重点学习)
+Listener监听器(简单理解)
+AJAX、JSON(简单理解)
+直接进spring,spring mvc,mybatis 就是SSM框架
