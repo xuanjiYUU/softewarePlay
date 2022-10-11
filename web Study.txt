@@ -1,0 +1,28 @@
+总览：
+HTML CSS这两个属于会用就行，不必深究。但是CSS的动画需要看一下
+javascript +jquery是核心需要学习
+vue.js（javascript）框架必学，再选择一个HTML框架
+
+概念区分：
+	HTML+CSS是网页界面效果，HTML负责控件，CSS负责颜色动画等。
+  javascript是数据处理部分，负责数据接收发送，原生javascript通过ajax函数收发(与http协议相关)
+  Vue.js是javascript的框架，可以优化原生javascript的语法，提高性能
+  HTML框架是提供控件库，动画库之类的。
+ 	初学的时候不必在意适配移动端的问题，大部分框架可以适配移动端
+  一切的任何框架都是基于原生语法的，学好基础再去学习框架会很快
+路径以及资源：
+	1. HTML5+CSS3  https://www.bilibili.com/video/BV1Kg411T7t9/?vd_source=93e112bc055e396c62724bd868b82333
+  	这一部分属于会用，能看懂就行。主要还是HTML的框架，不会用到原生HTML的
+    所以学习过程是看一个视频，跟着敲敲代码
+  2.javascript   https://www.bilibili.com/video/BV1ux411d75J/?vd_source=93e112bc055e396c62724bd868b82333
+  	这一部分需要好好学习，基础语法与其它语法几乎没区别。如果有其它语法基础，可以快速过
+  3.jQuery			 https://www.bilibili.com/video/BV1a4411w7Gx/vd_source=93e112bc055e396c62724bd868b82333
+  	这一部分是操作控件的核心，重点学习，熟练掌握（涉及web的大量操作）
+  4.ajax					https://www.bilibili.com/video/BV1zs411h74a/ --该视频中的GIT部分可以跳过
+  	这一部分可以根据服务端的进度来自由调节，主要涉及到与服务器的数据交互问题。会用就行
+  5.Vue.js 				https://www.bilibili.com/video/BV1zq4y1p7ga/?vd_source=93e112bc055e396c62724bd868b82333
+  	这一部分是后端框架核心，可以边学边写项目，在项目中寻找问题，在视频中寻找答案
+  6.前端框架选一个，写者推荐Bootstrap，你可以根据自己的审美选择不同的UI框架
+  7.属于超出部分：python开发web的数据分析界面（数据可视化内容)
+  
+  开发中需要用到的一些图标资源可以到https://www.iconfont.cn/找找
