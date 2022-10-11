@@ -1,0 +1,31 @@
+安装过程：一路next~
+安装成功后桌面上会有个git-bash 这个是git的可视化界面，你可以将他添加到cmd中
+注：git使用的基础指令是基于linux的，例如vim,pwd,whoami,cd,mkdir,ls等
+基本使用：
+	打开git-bash
+	使用cd指令切到你的项目路径 例如cd d:/mySofte
+	pwd查看目前路径
+	git init将当前目录初始化为本地仓库(不影响你代码项目的)
+	
+基础指令集：
+	git add 文件名 添加到暂存区
+	git commit 将刚刚git add的文件（可将多条add一起执行）添加到存储区
+		git commit -m "这里是注释"
+	git status 查看你add或进行过修改的文件
+	git diff 查看修改过的内容
+	git logs 查看你的操作日志
+	git push <远程主机名> <本地分支名>:<远程分支名>
+	git pull <远程库名> <远程分支名>:<本地分支名>
+
+指令大全：https://blog.csdn.net/qq_38111015/article/details/84885809
+
+将git本地仓库推送到github/码云等云端仓库
+首先你需要一个Github账号,并且创建一个私有仓库
+然后到git-bash中输入 ssh-keygen.exe 然后一路回车~
+执行完毕后到C盘用户目录，会有一个.shh文件夹，打开里面的id_ras.pub文件，复制里面的所有内容
+转到Github->settings->SSH and GPG keys->new SSH Key
+将刚刚复制的内容全部粘贴到key中，title不用管
+打开你的仓库
+转到git-bash
+输入指令 git remote add origin 你的仓库url (origin是给云端仓库的本地编号)
+此时本地仓库和云端仓库已经绑定成功
